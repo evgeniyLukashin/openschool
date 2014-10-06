@@ -1,0 +1,983 @@
+@font-face {
+    font-family: PFAgoraSlabPro-Medium; /* Имя шрифта */
+    src: url(font/PFAgoraSlabPro-Medium.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: PFAgoraSlabPro-Bold; /* Имя шрифта */
+    src: url(font/PFAgoraSlabPro-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: PFAgoraSlabPro-Black; /* Имя шрифта */
+    src: url(font/PFAgoraSlabPro-Black.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: ProximaNova-Light; /* Имя шрифта */
+    src: url(font/ProximaNova-Light.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: ProximaNova-Bold; /* Имя шрифта */
+    src: url(font/ProximaNova-Bold.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: ProximaNova-LightIt; /* Имя шрифта */
+    src: url(font/ProximaNova-LightIt.otf); /* Путь к файлу со шрифтом */
+}
+body{
+    width: 900px;
+    margin: auto;
+    font-family: PFAgoraSlabPro-Medium;
+    letter-spacing: -0.5px;
+}
+
+h4{
+    font-size: 22.5px;
+}
+
+h3{
+    text-align: center;
+    font-family: PFAgoraSlabPro-Bold;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 0px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    letter-spacing: 0px;
+}
+
+section{
+    display: block;
+}
+header{
+    width: 900px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+}
+
+.header{
+    background-color: #000000;
+    opacity: 0.3;
+    width: 900px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+
+}
+
+.logo {
+    float: left;
+    position: absolute;
+    padding-left: 112px;
+    padding-top: 18px;
+}
+.logo a{
+    background: url("images/logowhite.png") no-repeat;
+    width: 140px;
+    height: 35px;
+    display: block;
+    text-indent: -999em;
+    float: left;
+}
+
+.menu{
+    display: inline-block;
+    position: absolute;
+    padding-left: 292px;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu span{
+    color: #ffffff;
+    padding: 29px 8px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: PFAgoraSlabPro-Medium;
+    font-size: 9px;
+    margin-top: -16px;
+    margin-left: -5px;
+}
+
+.menu .active{
+    background-color: #d84746;
+}
+
+.login{
+    padding-left: 45px;
+    font-family: PFAgoraSlabPro-Medium;
+    font-size: 9px;
+    color: #ffffff;;
+}
+
+.contacts{
+    font-family: ProximaNova-Light;
+    color: #ffffff;
+    font-size: 9px;
+    position: absolute;
+    padding-left: 635px;
+}
+.contacts ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+.contacts span{
+    font-family: ProximaNova-Bold;
+    font-size: 17px;
+}
+
+.announcement, .wedding-workshop{
+    background: url("images/oS-O85u85bw.jpg") 0 -100px;
+    width: auto;
+    height: 450px;
+    color: #ffffff;
+    font-family: PFAgoraSlabPro-Medium;
+}
+
+.photo-azbuka{
+    background: url("images/z_22b5beb5.jpg") 0 -40px;
+}
+
+.announcement .advertisement{
+    padding-top: 120px;
+    padding-left: 110px;
+}
+
+.announcement .advertisement .course-name{
+    font-size: 22px;
+}
+
+.announcement .advertisement .course-name h3{
+    font-size: 45px;
+    margin-top: -10px;
+    padding-top: 0px;
+    text-align: left;
+    line-height: 1.2;
+}
+
+.announcement .advertisement .course-date{
+    margin-top: -8px;
+    font-family: ProximaNova-Light;
+    list-style-type: none;
+    font-size: 17px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+
+.announcement .advertisement .course-date span{
+    font-family: ProximaNova-Bold;
+}
+
+.registration-button{
+    background: #d84746;
+    width: 205px;
+    height: 50px;
+    font-family:  ProximaNova-Bold;
+    font-size: 17px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    border-width: 0 0 1px 0;
+    border-radius: 6px;
+    -webkit-appearance: none;
+}
+
+.video{
+    width: 100%;
+    height: 510px;
+    background-color: #ffd52d;
+}
+
+.video div{
+    width: 522px;
+    height: 350px;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.video iframe, .video object, .video embed{
+    width: 522px;
+    height: 350px;
+}
+
+.program {
+    min-height: 590px;
+    color: #282828;
+    letter-spacing: 0px;
+    width: 660px;
+    margin-left: 120px;
+}
+
+.program .title{
+    font-family: PFAgoraSlabPro-Bold;
+    font-size: 39px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.program section{
+    width: 50%;
+    float: left;
+    font-size: 16px;
+}
+
+.program section .day{
+    padding: 4px 10px 3px 10px;
+    background-color: #37aacc;
+    font-family: ProximaNova-Bold;
+    color: #ffffff;
+    margin-left: 40px;
+}
+
+.program .quote{
+    margin-left: 75px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: ProximaNova-LightIt;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.program li{
+     color: #d84746;
+     font-family: ProximaNova-Light;
+     font-size: 13px;
+}
+
+.program li span{
+    color: #282828;
+    font-family: ProximaNova-Light;
+}
+
+.advertisement-form{
+    background-color: #37aacc;
+    color: #ffffff;
+    width: 900px;
+    height: 340px;
+}
+
+
+.advertisement-form .condition{
+    padding-left: 175px;
+    float: left;
+    font-size: 22.5px;
+}
+
+.advertisement-form li {
+    list-style-type: none;
+    font-family: PFAgoraSlabPro-Medium;
+    font-size: 22.5px;
+    margin-left: -35px;
+}
+.advertisement-form li span{
+    font-family: PFAgoraSlabPro-Black;
+}
+
+.advertisement-form .other-condition{
+    background-color: #ffffff;
+    color: #37aacc;
+    width: 133px;
+    height: 77px;
+    float: left;
+    margin-top: 40px;
+    padding: 8px;
+    border-width: 0 0 1px 0;
+    border-radius: 3px;
+    font-family: ProximaNova-Bold;
+    font-size: 14px;
+}
+
+.blue-form form{
+    float: left;
+    margin-left: 160px;
+}
+
+.blue-form  form input{
+    margin-left: 25px;
+}
+
+.blue-form  form .a-button{
+    margin-left: 22px;
+    background: #d84746;
+    width: 150px;
+    height: 30px;
+    font-family:  ProximaNova-Bold;
+    font-size: 17px;
+    color: #ffffff;
+    border: 1px;
+    border: 1px solid;
+    border-color: #ffffff;
+}
+
+.free-lesson{
+    background-color: #37aacc;
+    color: #ffffff;
+    width: 900px;
+    height: 250px;
+}
+.free-lesson h4{
+    text-align: center;
+    padding-top: 60px;
+    font-weight: 100;
+}
+
+.who {
+    background-color: #ffd52d;
+    height: 375px;
+    width: 900px;
+}
+
+.who div {
+    font-size: 22.5px;
+    padding: 0 170px;
+}
+
+.about-teacher{
+    height: 850px;
+    letter-spacing: 0px;
+}
+
+
+
+.photo-teacher{
+    background: url("images/jktu2.jpg") no-repeat;
+    width: 130px;
+    height: 300px;
+    float: left;
+    margin-left: 200px;
+
+}
+.text-teacher{
+    padding-top: 135px;
+    text-align: center;
+    line-height: 0.7;
+}
+.name-teacher{
+    font-family: ProximaNova-Bold;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 2;
+}
+.quote{
+    font-family: ProximaNova-LightIt;
+    font-weight: 100;
+    font-size: 10px;
+    color: #282828;
+}
+
+.description-teacher{
+    width: 345px;
+    float: left;
+    padding-left: 30px;
+    font-family: ProximaNova-Light;
+    font-size: 13px;
+    font-weight: 100;
+    color: #282828;
+}
+
+
+
+.slider {
+    position: relative;
+    width: 900px;
+}
+
+.slider{
+    margin: auto;
+}
+
+.gallery {
+    overflow: hidden;
+}
+.gallery ul {
+    height: 385px;
+    width: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.gallery ul li, .slider ul li{
+    float: left;
+}
+
+.top ul{
+    height: 450px;
+}
+
+.top .item, .review .item{
+    width: 900px;
+    height: 450px;
+    display: block;
+
+}
+.slider .arrow {
+    position: absolute;
+    top: 210px;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.slider .left-arrow {
+    left: -32px;
+    background: url("images/6.png") no-repeat;
+    opacity: 0.5;
+}
+.slider .right-arrow {
+    right: -32px;
+    background: url("images/7.png") no-repeat;
+    opacity: 0.5;
+}
+.slider .gallery {
+    width: 900px;
+    margin: 0 0px;
+}
+.slider .nav {
+    margin: 20px auto;
+}
+
+.slider .nav span {
+    opacity: 0.9;
+    background: #e3e3e3;
+    margin: 0 8px 0 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+.slider .nav span.on {
+    background: #d84746;
+}
+
+.slider .item{
+    width: 900px;
+}
+
+.about-teacher .slider .item img{
+    width: 522px;
+    margin: auto;
+    display: block;
+}
+.about-teacher .slider .nav{
+    margin: -60px auto;
+}
+
+.about-teacher .slider .arrow{
+    top: 420px;
+}
+
+.differences{
+    background-color: #ffd52d;
+    height: 590px;
+    width: 900px;
+}
+
+.block1{
+    float: left;
+    font-family: ProximaNova-Light;
+    font-size: 13px;
+    padding-left: 110px;
+}
+.block1 div{
+    width: 235px;
+    padding-left: 75px;
+}
+
+.block2{
+    float: left;
+    font-family: ProximaNova-Light;
+    font-size: 13px;
+    padding-left: 50px;
+}
+.block2 div{
+    width: 235px;
+    padding-left: 75px;
+}
+.differences span{
+    font-family: PFAgoraSlabPro-Bold;
+    font-size: 16px;
+}
+.differences .weather{
+    background: url("images/2.png") no-repeat;
+}
+
+.differences .practice{
+    background: url("images/3.png") no-repeat;
+}
+.differences .emotions{
+    background: url("images/1.png") no-repeat;
+}
+.differences .history{
+    background: url("images/4.png") no-repeat;
+}
+
+.differences .practice, .differences .history{
+    margin-top: 40px;
+}
+
+.bonus-quote{
+    text-align: left;
+    font-family: ProximaNova-LightIt;
+    font-size: 13px;
+    font-weight: 100;
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-left: 250px;
+    margin-bottom: 20px;
+    etter-spacing: 0px;
+}
+
+.bonus-title{
+    text-align: center;
+    font-family: PFAgoraSlabPro-Bold;
+    font-size: 22.5px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    etter-spacing: 0px;
+}
+.bonus ul{
+    margin-left: 150px;
+}
+.bonus li{
+    color: #d84746;
+    font-family: ProximaNova-Light;
+    font-size: 13px;
+}
+
+.bonus li span{
+    color: #282828;
+    font-family: ProximaNova-Light;
+}
+
+.advantage{
+    height: 250px;
+    width: 700px;
+    margin: 100px auto auto ;
+}
+
+
+.advantage{
+    font-family: ProximaNova-Light;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.advantage h4{
+    font-family: PFAgoraSlabPro-Medium;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 75px;
+    font-weight: 100;
+}
+
+.advantage .practice{
+    background: url("images/i3.png") no-repeat top center;
+    width: 233px;
+    height: 300px;
+    float: left;
+}
+.advantage .individualwork{
+    background: url("images/i1.png") no-repeat top center;
+    width: 233px;
+    height: 300px;
+    float: left;
+}
+.advantage .result{
+    background: url("images/i2.png") no-repeat top center;
+    width: 233px;
+    height: 300px;
+    float: left;
+}
+
+.knowing{
+    background-color: #ffd52d;
+    height: 470px;
+    width: 900px;
+}
+
+.knowing-about{
+    margin-top: 60px;
+    height: 470px;
+    width: 900px;
+}
+
+.knowing .video{
+    width: 385px;
+    height: 257px;
+    float: left;
+    padding-left: 113px;
+}
+.knowing .video iframe{
+    width: 385px;
+ height: 257px;
+}
+
+.knowing-about .video{
+    width: 525px;
+    height: 350px;
+    margin: auto;
+}
+.knowing-about .video iframe{
+    width: 525px;
+    height: 350px;
+}
+
+.knowing .about{
+    width: 250px;
+    float: left;
+    padding-left: 30px;
+}
+
+.knowing .about h4{
+    font-family: PFAgoraSlabPro-Medium;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 100;
+    text-align: left;
+}
+
+.knowing .about p{
+    font-family: ProximaNova-Light;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 100;
+    padding-top: 20px;
+    margin: 0;
+}
+.digital-about table{
+    margin: auto;
+    color: #ffffff;
+    border-spacing: 10px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+.digital-about table td{
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+}
+
+.digital-about thead td{
+    background-color: #37aacc;
+    font-family: ProximaNova-Bold;
+    font-size: 40px;
+}
+
+.digital-about tbody td{
+    background-color: #d84746;
+    font-family: PFAgoraSlabPro-Medium;
+    font-size: 17px;
+}
+
+.about-text{
+    width: 100%;
+    height: 440px;
+    background-color: #ffd52d;
+}
+
+.about-text h3{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.about-text div{
+    width: 555px;
+    margin: auto;
+    font-size: 22.5px;
+    color: #282828;
+}
+
+.review{
+    height: 720px;
+}
+
+.review .item{
+    height: 650px;
+}
+
+.review .slider .nav{
+    margin: -400px auto;
+}
+
+.review .slider .right-arrow{
+    right: 80px;
+}
+.review .slider .left-arrow{
+    left: 80px;
+}
+
+.review-photo1{
+background: url("images/6.jpg") no-repeat;
+    width: 522px;
+    height: 348px;
+    margin: 240px auto 0;
+}
+
+.courses{
+    width: 745px;
+    margin: auto;
+}
+
+
+
+.courses .filter{
+    display: inline-block;
+}
+
+.courses .filter li{
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    background-color: #e3e3e3;
+}
+
+.courses .filter span{
+    color: #282828;
+    padding: 5px 15px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: ProximaNova-Light;
+}
+.courses .filter .active{
+    background-color: #37aacc;
+    color: #e3e3e3;
+}
+.courses .items{
+    display: inline-block;
+}
+
+.courses .items li{
+    display: inline-block;
+    width: 215px;
+    height: 225px;
+    background: url("images/33.jpg") no-repeat;
+    border: solid #e3e3e3 1px ;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.courses .items li h4{
+    font-size: 17px;
+    font-weight: normal;
+    height: 60px;
+    width: 200px;
+    display: block;
+    margin-top: 165px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.courses .description, .courses .button{
+    display: none;
+}
+
+.courses li:hover .description{
+    display: block;
+    background-color: #464646;
+    opacity: 0.9;
+    color: #ffffff;
+    width: 215px;
+    height: 225px;
+    position: absolute;
+}
+
+.courses .description .description-text{
+    height: 120px;
+}
+
+.courses .description span{
+    width: 170px;
+    font-size: 13px;
+    font-weight: normal;
+    padding-top: 20px;
+    margin: auto;
+    display: block;
+    font-family: ProximaNova-Light;
+    text-align: center;
+}
+
+.courses .description .title{
+    font-family: PFAgoraSlabPro-Medium;
+    font-size: 17px;
+}
+
+.courses li:hover .button{
+    display: block;
+    margin: 170px 25px;
+    width: 165px;
+    position: absolute;
+}
+
+.more{
+    text-align: left;
+    width: 60px;
+    height: 20px;
+    margin: 0 auto 40px;
+    background: url("images/32.png") no-repeat right;
+    cursor: pointer;
+}
+
+.more span{
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 2px dashed #d84746;
+}
+
+.site-footer {
+    background: #464646;
+    color: #fff;
+    overflow: hidden;
+    padding: 25px 20px 50px;
+}
+
+.f-sections{
+    width: 480px;
+    margin: auto;
+    padding: 10px;
+}
+
+.site-footer section {
+    float: left;
+}
+
+.site-footer .s2{
+    padding-left: 40px;
+}
+
+.site-footer ul {
+    list-style-type: none;
+    margin-left: -40px;
+    margin-top: -30px;
+    font-family: ProximaNova-Light;
+    font-size: 13px;
+}
+
+.site-footer form{
+    margin-top: -20px;
+}
+
+.f-form{
+    width: 165px;
+}
+
+form input{
+    height: 30px;
+    margin-bottom: 15px;
+    padding-left: 12px;
+    font-family: ProximaNova-Light;
+    font-size: 13px;
+    color: #353535;
+    opacity: 50;
+    border-width: 0 0 1px 0;
+    border-radius: 3px;
+    -webkit-appearance: none;
+}
+
+.site-footer h4{
+    margin-top: -10px;
+    padding-right: 5px;
+}
+
+.f-button{
+    background: #d84746;
+    width: 165px;
+    height: 30px;
+    font-family:  ProximaNova-Bold;
+    font-size: 17px;
+    color: #ffffff;
+    border: 0px outset buttonface;
+    border-radius: 3px;
+}
+
+.site-footer .text-link{
+    width: 385px;
+    margin: 65px 0 0 115px;
+    float: left;
+}
+
+.site-footer .text-link ul{
+    display: inline-block;
+
+
+}
+
+.site-footer .text-link ul li{
+    display: inline-block;
+    width: 180px;
+    margin-bottom: 40px;
+    font-family: ProximaNova-Light;
+    font-size: 13px;
+    font-weight: 100;
+    height: 120px;
+    float: left;
+
+}
+
+.site-footer .text-link ul li h4{
+    margin: 0 auto 10px;
+    padding-right: 5px;
+}
+
+.site-footer .text-link ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.v-form{
+    width: 160px;
+    float: left;
+    padding-left: 140px;
+}
+
+.v-form h4{
+    font-family: ProximaNova-Light;
+    text-align: right;
+     margin-top: 30px;
+     padding-right: 0;
+}
+
+
+.v-form span{
+    font-family: ProximaNova-Light;
+    font-size: 10px;
+    text-align: right;
+    line-height: 1;
+    float: right;
+}
+
+.v-form .address{
+    padding-top: 15px;
+    font-size: 13px;
+    letter-spacing: 0;
+}
+
+.link{
+    display:  inline-block;
+    width: 370px;
+    height: 40px;
+    float: left;
+    margin-left: 115px;
+}
+
+.link .buy{
+    width: 280px;
+    background: url("images/11.png") no-repeat right;
+    height: 32px;
+    padding-top: 10px;
+}
+
+
+
+
